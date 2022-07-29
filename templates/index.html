@@ -1,0 +1,30 @@
+<html>
+    <title>
+        Predict Ham Or Spam
+    </title>    
+<div class="row">
+    <div class="col-md-6 col-sm-12 col-xs-6 col-lg-6">
+
+
+        <form action="/" method="post">
+            <legend>Income Estimation Form</legend>
+            <div class="mb-3">
+                <label class="form-label">Message'</label>
+                <textarea class="form-control" name="message" rows="10"cols="100"  
+                    placeholder="Enter message"></textarea>    
+            </div>
+            <div class="mb-3">
+
+                <input class="btn btn-primary" type="submit" value="Predict fraud or not" required />
+            </div>
+
+        </form>
+        {% if predict==1 %}
+            spam
+        {% elif predict==0 %}
+            Ham 
+        {% endif %}       
+
+        </div>        
+    </div>   
+</html>     

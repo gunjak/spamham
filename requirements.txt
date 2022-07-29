@@ -1,0 +1,6 @@
+nltk
+sklearn
+pandas
+flask
+dill
+numpy

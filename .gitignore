@@ -1,0 +1,9 @@
+.vscode/
+*.log
+model
+transformed_data_file
+transformed_obj_file
+venv/
+*.csv
+__pycache__
+
